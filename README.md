@@ -28,4 +28,4 @@ A lógica do código é iniciada importando as imagens previamente instaladas do
 ![Carregando conjunto](/assets/carregandoConjuntos.png)
 
 Com as imagens já carregadas, função "imshow" exibe uma tupla/conjunto de treinamento.
-![Exibição](/assets/visualizando.png.png)
+![Exibição](/assets/visualizando.png)
