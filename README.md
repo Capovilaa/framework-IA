@@ -26,3 +26,6 @@ Encontramos um repo no git [MNIST](https://github.com/mbornet-hl/MNIST/tree/mast
 ## Funcionamento do código
 A lógica do código é iniciada importando as imagens previamente instaladas do MNIST.
 ![Carregando conjunto](/assets/carregandoConjuntos.png)
+
+Com as imagens já carregadas, função "imshow" exibe uma tupla/conjunto de treinamento.
+![Exibição](/assets/visualizando.png.png)
