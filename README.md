@@ -33,3 +33,16 @@ Com as imagens já carregadas, função "imshow" exibe uma tupla/conjunto de tre
 ## Definindo arquitetura
 Definimos uma rede neural convolucional (CNN) em PyTorch para classificar dígitos do conjunto MNIST. A arquitetura inclui duas camadas convolucionais, duas camadas totalmente conectadas e utiliza funções de ativação ReLU. Após a definição, a rede é instanciada e pronta para treinamento e previsão.
 ![Net](/assets/net.png)
+
+## Treinamento da rede neural
+Após instanciar a classe, o treinamento é iniciado. Esse que enumerado por 2 índices, calculando a perda (como o modelo está performando a tarefa).
+Após esse treinamento é criado um arquivo à parte do tipo pth.
+![Treinando](/assets/treinando.png)
+
+## Realiza os teste
+Com todos os parâmetros prontos, nessa etapa que os testes são iniciados, ele exibe com a ajuda do matplot alguns números que ele irá tentar reconhecer. As previsões são printadas.
+![Teste](/assets/testando.png)
+
+## Mostra acurácia
+Após cada previsão, o código printa também uma porcentagem de certeza daquela previsão. Isso ajuda para o usuário ter uma noção da propabilidade daquilo estar correto.
+![Previ](/assets/previ.png)
