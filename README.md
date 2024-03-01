@@ -29,3 +29,7 @@ A lógica do código é iniciada importando as imagens previamente instaladas do
 
 Com as imagens já carregadas, função "imshow" exibe uma tupla/conjunto de treinamento.
 ![Exibição](/assets/visualizando.png)
+
+## Definindo arquitetura
+Definimos uma rede neural convolucional (CNN) em PyTorch para classificar dígitos do conjunto MNIST. A arquitetura inclui duas camadas convolucionais, duas camadas totalmente conectadas e utiliza funções de ativação ReLU. Após a definição, a rede é instanciada e pronta para treinamento e previsão.
+![Net](/assets/net.png)
