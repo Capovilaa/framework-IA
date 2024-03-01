@@ -23,7 +23,10 @@ O conjunto de dados MNIST (Modified National Institute of Standards and Technolo
 
 Encontramos um repo no git [MNIST](https://github.com/mbornet-hl/MNIST/tree/master) que fornece algumas imagens para treinamento.
 
-## Funcionamento do código
+# Funcionamento do código
+Abaixo segue como que notamos o funcionamento desse código.
+
+## Iniciando
 A lógica do código é iniciada importando as imagens previamente instaladas do MNIST.
 ![Carregando conjunto](/assets/carregandoConjuntos.png)
 
@@ -46,3 +49,9 @@ Com todos os parâmetros prontos, nessa etapa que os testes são iniciados, ele 
 ## Mostra acurácia
 Após cada previsão, o código printa também uma porcentagem de certeza daquela previsão. Isso ajuda para o usuário ter uma noção da propabilidade daquilo estar correto.
 ![Previ](/assets/previ.png)
+
+# Prints resultados obtidos
+Segue abaixo prints do algorítmo em funcionamento:
+![Chart](/assets/chart.png)
+![Previsão](/assets/previsao.png)
+![Acurácia](/assets/acuracia.png)
